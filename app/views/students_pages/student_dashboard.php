@@ -18,10 +18,10 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
       <p class="text-sm text-blue-200">Voting System</p>
     </div>
     <nav class="flex-1 p-4 space-y-2">
-      <a href="/students-dashboard" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">🏠 Dashboard</a>
-      <a href="/vote-now" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">🗳️ Vote Now</a>
-      <a href="/my-votes" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">📊 My Votes</a>
-      <a href="/leadingcounts" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">🏆 Leading Candidates</a>
+      <a href="/students-dashboard" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">Dashboard</a>
+      <a href="/vote-now" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">Vote Now</a>
+      <a href="/my-votes" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">My Votes</a>
+      <a href="/leadingcounts" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">Leading Candidates</a>
 
     </nav>
     <div class="p-4 border-t border-blue-600">
@@ -39,14 +39,14 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
       <div class="flex flex-wrap justify-center gap-6">
        
         <div class="bg-white shadow-xl rounded-xl p-6 text-center hover:scale-105 transition w-72">
-          <h2 class="text-xl font-semibold mb-2">🗳️ Vote Now</h2>
+          <h2 class="text-xl font-semibold mb-2">Vote Now</h2>
           <p class="text-gray-600 mb-4">Cast your vote for your favorite candidates.</p>
           <a href="/vote-now" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg font-semibold">Go</a>
         </div>
 
    
         <div class="bg-white shadow-xl rounded-xl p-6 text-center hover:scale-105 transition w-72">
-          <h2 class="text-xl font-semibold mb-2">📊 My Votes</h2>
+          <h2 class="text-xl font-semibold mb-2">My Votes</h2>
           <p class="text-gray-600 mb-4">Check your submitted votes</p>
           <a href="/my-votes" class="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-lg font-semibold">Go</a>
         </div>

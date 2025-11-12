@@ -18,11 +18,11 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
       <p class="text-sm text-blue-200">Voting System</p>
     </div>
     <nav class="flex-1 p-4 space-y-2">
-      <a href="/students-dashboard" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">🏠 Dashboard</a>
-      <a href="/vote-now" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">🗳️ Vote Now</a>
-      <a href="/my-votes" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">📊 My Votes</a>
-       <a href="/leading" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">🏆 Leading Candidates</a>
-      <a href="/results" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">📢 Results</a>
+      <a href="/students-dashboard" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">Dashboard</a>
+      <a href="/vote-now" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">Vote Now</a>
+      <a href="/my-votes" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">My Votes</a>
+       <a href="/leading" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">Leading Candidates</a>
+      <a href="/results" class="block py-2.5 px-4 rounded-lg hover:bg-blue-600 font-medium transition">Results</a>
     </nav>
     <div class="p-4 border-t border-blue-600">
       <a href="/logout" class="block text-center bg-red-500 py-2 rounded-lg font-semibold hover:bg-red-600 transition">Logout</a>
